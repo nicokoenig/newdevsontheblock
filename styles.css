@@ -1,0 +1,66 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  /* background-color: rgb(241, 236, 226); */
+  background-color: snow;
+  padding: 1rem;
+  font-family: "Roboto Mono", monospace;
+  line-height: 130%;
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+.logo {
+  margin-top: 0.5rem;
+  width: 50%;
+  max-width: 25rem;
+  background-color: white;
+}
+
+section {
+  margin-top: 4rem;
+}
+
+section:last-of-type {
+  margin-bottom: 4rem;
+}
+
+h2 {
+  border-bottom: 2px solid black;
+  padding: 1rem 0;
+  display: inline-block;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+  color: deeppink;
+  text-transform: uppercase;
+}
+
+a:hover {
+  font-weight: bolder;
+}
