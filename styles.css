@@ -11,7 +11,7 @@ body {
 
 body {
   /* background-color: rgb(241, 236, 226); */
-  background-color: snow;
+  background: url(background.png) snow;
   padding: 1rem;
   font-family: "Lato", sans-serif;
   line-height: 130%;
