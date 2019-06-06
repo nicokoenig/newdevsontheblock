@@ -11,9 +11,9 @@ body {
 
 body {
   /* background-color: rgb(241, 236, 226); */
-  background: url(background.png) white;
+  background: url(images/background.png) white;
   padding: 1.5rem;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
 }
 
@@ -27,7 +27,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 @media (min-width: 600px) {
@@ -145,13 +145,13 @@ a:hover {
 
 /* fontello stuff */
 @font-face {
-  font-family: "fontello";
-  src: url("/font/fontello.eot?92951364");
-  src: url("/font/fontello.eot?92951364#iefix") format("embedded-opentype"),
-    url("/font/fontello.woff2?92951364") format("woff2"),
-    url("/font/fontello.woff?92951364") format("woff"),
-    url("/font/fontello.ttf?92951364") format("truetype"),
-    url("/font/fontello.svg?92951364#fontello") format("svg");
+  font-family: 'fontello';
+  src: url('/font/fontello.eot?92951364');
+  src: url('/font/fontello.eot?92951364#iefix') format('embedded-opentype'),
+    url('/font/fontello.woff2?92951364') format('woff2'),
+    url('/font/fontello.woff?92951364') format('woff'),
+    url('/font/fontello.ttf?92951364') format('truetype'),
+    url('/font/fontello.svg?92951364#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -165,9 +165,9 @@ a:hover {
   }
 }
 */
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  font-family: "fontello";
+[class^='icon-']:before,
+[class*=' icon-']:before {
+  font-family: 'fontello';
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -202,5 +202,5 @@ a:hover {
 }
 
 .icon-twitter-squared:before {
-  content: "\f304";
+  content: '\f304';
 } /* '' */
