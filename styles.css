@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   min-height: 100%;
@@ -13,6 +17,7 @@ body {
   /* background-color: rgb(241, 236, 226); */
   background: url(images/background.png) white;
   padding: 1.5rem;
+  padding-top: 0;
   font-family: "Lato", sans-serif;
   font-size: 18px;
 }
@@ -32,7 +37,7 @@ h5 {
 
 @media (min-width: 600px) {
   body {
-    font-size: 20px;
+    font-size: 21px;
   }
 
   p {
@@ -48,22 +53,31 @@ main {
 
 header {
   text-align: center;
+  padding-top: 2rem;
+}
+
+nav {
+  margin-bottom: 1.5rem;
+}
+
+nav a + a {
+  margin-left: 1rem;
 }
 
 .logo {
   margin-top: 0.5rem;
   width: 50%;
-  max-width: 20rem;
+  max-width: 10rem;
   background-color: white;
   box-shadow: 5px 5px 0 deeppink;
 }
 
-section {
-  margin-top: 4rem;
+main article:first-of-type {
+  margin-top: 5rem;
 }
 
-section:last-of-type {
-  margin-bottom: 4rem;
+article + article {
+  margin-top: 4rem;
 }
 
 h2 {
@@ -77,6 +91,10 @@ a:visited,
 a:active,
 a:hover {
   color: deeppink;
+}
+
+a.back-to-top {
+  font-size: 80%;
 }
 
 a:hover {
@@ -110,6 +128,10 @@ a:hover {
   padding: 0;
   color: black;
   align-self: end;
+}
+
+.past-events {
+  list-style-type: circle;
 }
 
 @media (min-width: 500px) {
