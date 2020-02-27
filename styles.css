@@ -14,17 +14,17 @@ body {
 }
 
 body {
-  /* background-color: rgb(241, 236, 226); */
   background: url(images/background.png) white;
-  padding: 1.5rem;
+  padding: 2.5rem;
   padding-top: 0;
   font-family: "Lato", sans-serif;
-  font-size: 18px;
+  font-size: calc(1rem + 0.5vw);
+  font-weight: 400;
 }
 
 p {
   line-height: 150%;
-  font-weight: 200;
+  max-width: 45ch;
 }
 
 h1,
@@ -35,14 +35,23 @@ h5 {
   font-family: "Oswald", sans-serif;
 }
 
+h2 {
+  background-color: #333;
+  color: #fff;
+  box-shadow: 5px 5px 0 deeppink;
+  padding: 1rem 3rem !important;
+  display: inline-block;
+  position: relative;
+  left: -1.5rem;
+}
+
 @media (min-width: 600px) {
   body {
-    font-size: 21px;
+    font-weight: 300;
   }
 
   p {
     line-height: 160%;
-    font-weight: 300;
   }
 }
 
@@ -80,12 +89,6 @@ article + article {
   margin-top: 4rem;
 }
 
-h2 {
-  border-bottom: 2px solid black;
-  padding: 1rem 0;
-  display: inline-block;
-}
-
 a:link,
 a:visited,
 a:active,
@@ -117,7 +120,7 @@ a:hover {
   margin-bottom: 1rem;
   width: 100%;
   max-width: 10rem;
-  border: 5px solid black;
+  border: 5px solid #333;
   box-shadow: 5px 5px 0 deeppink;
 }
 
