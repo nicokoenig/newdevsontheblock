@@ -56,7 +56,7 @@ h2 {
 }
 
 main {
-  max-width: 40rem;
+  max-width: 50rem;
   margin: 0 auto;
 }
 
@@ -141,8 +141,8 @@ a:hover {
   .coach {
     display: grid;
     grid-template-rows: auto auto auto;
-    grid-column-gap: 1rem;
-    grid-template-columns: 2fr 3fr;
+    grid-column-gap: 2rem;
+    grid-template-columns: 1fr minmax(3fr, 40ch);
   }
   .coach__image {
     max-width: 15rem;
