@@ -45,19 +45,10 @@ h2 {
   left: -1.5rem;
 }
 
-@media (min-width: 600px) {
-  body {
-    font-weight: 300;
-  }
-
-  p {
-    line-height: 160%;
-  }
-}
-
 main {
-  max-width: 50rem;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
 }
 
 header {
@@ -87,6 +78,10 @@ main article:first-of-type {
 
 article + article {
   margin-top: 4rem;
+}
+
+li + li {
+  padding-top: 0.5rem;
 }
 
 a:link,
@@ -135,6 +130,16 @@ a:hover {
 
 .past-events {
   list-style-type: circle;
+}
+
+@media (min-width: 600px) {
+  body {
+    font-weight: 300;
+  }
+
+  p {
+    line-height: 160%;
+  }
 }
 
 @media (min-width: 500px) {
