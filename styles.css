@@ -8,6 +8,12 @@ html {
   scroll-behavior: smooth;
 }
 
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: initial;
+  }
+}
+
 html,
 body {
   min-height: 100%;
@@ -157,18 +163,6 @@ a:hover {
 
   .coach__social {
     grid-column: 2 / 3;
-  }
-}
-
-.maps {
-  height: 200px;
-  width: 100%;
-}
-
-@media (min-width: 500px) {
-  .maps {
-    display: initial;
-    height: 400px;
   }
 }
 
