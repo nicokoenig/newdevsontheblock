@@ -134,6 +134,12 @@ a:hover {
   align-self: end;
 }
 
+.partner__image {
+  width: 100%;
+  max-width: 20rem;
+  margin-bottom: 1rem;
+}
+
 .past-events {
   list-style-type: circle;
 }
