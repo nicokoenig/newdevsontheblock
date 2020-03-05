@@ -140,6 +140,15 @@ a:hover {
   margin-bottom: 1rem;
 }
 
+.partners__list {
+  list-style: none;
+  padding: 0;
+}
+
+.partners__list > li + li {
+  margin-top: 1rem;
+}
+
 .past-events {
   list-style-type: circle;
 }
