@@ -71,11 +71,15 @@ nav a + a {
 }
 
 .logo {
-  margin-top: 0.5rem;
+  margin-top: 5rem;
   width: 50%;
   max-width: 10rem;
   background-color: white;
   box-shadow: 5px 5px 0 deeppink;
+}
+
+a.register {
+  font-size: 120%;
 }
 
 main article:first-of-type {
