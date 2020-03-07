@@ -26,6 +26,7 @@ body {
   font-family: "Lato", sans-serif;
   font-size: calc(1rem + 0.5vw);
   font-weight: 400;
+  font-display: swap;
 }
 
 p {
@@ -212,6 +213,7 @@ a:hover {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
+  font-display: swap;
   speak: none;
 
   display: inline-block;
